@@ -22,10 +22,10 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   text-align: center;
-  -moz-background-size: 100% 100%;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
-  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -122,23 +122,6 @@ p a:hover {
   text-transform: uppercase;
   vertical-align: middle;
   width: 100%;
-}
-@media (min-width: 400px) {
-  .button {
-    display: inline-block;
-    margin-right: 2.5em;
-  }
-  .button:nth-of-type(even) {
-    margin-right: 0;
-  }
-}
-@media (min-width: 600px) {
-  .button:nth-of-type(even) {
-    margin-right: 2.5em;
-  }
-  .button:nth-of-type(5) {
-    margin-right: 0;
-  }
 }
 .button:hover {
   text-decoration: none;
@@ -253,8 +236,8 @@ p a:hover {
 /*Hieunq: custom CSS for playBtn*/
 #playBtn {
   position: absolute;
-  margin-top: -40%;
-  margin-left: -25%;
+  top: 260px;
+  left: 150px;
 }
 
 /*Hoannd custom CSS*/
@@ -304,7 +287,6 @@ p a:hover {
 
 .tmem{
   display: inline-block;
-  width: 9.5em;
   height: 4em;
   text-align: center;
   justify-content:center;
