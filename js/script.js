@@ -237,31 +237,23 @@ function reDrawPlayBtn(){
 
 function checkCollision()
 {
-    if(bodyX[0] >= width || bodyX[0] < 0 || bodyY[0] < 0 || bodyY[0] >= height)
+    if(snakeLength > 4)
     {
-        scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
-        controlDiv.innerHTML = "Press \"Enter\" to restart"; 
-        gameOver = true;
-        clearTimeout(intervalId);
-        reDrawPlayBtn();
-    }
-    else if(snakeLength > 4)
+        if(checkSelfCollision(bodyX[0],bodyY[0]))
         {
-            if(checkSelfCollision(bodyX[0],bodyY[0]))
-            {
-                scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
-                controlDiv.innerHTML = "Press \"Enter\" to restart";
-                gameOver = true;
-                clearTimeout(intervalId);
-                reDrawPlayBtn();
-            }
+            scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
+            controlDiv.innerHTML = "Press \"Enter\" to restart";
+            gameOver = true;
+            clearTimeout(intervalId);
+            reDrawPlayBtn();
         }
+    }
     if(checkSnakeHitWall(bodyX[0], bodyY[0])){
         scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
         controlDiv.innerHTML = "Press \"Enter\" to restart";
         gameOver = true;
         clearTimeout(intervalId);
-        reDrawPlayBtn();  
+        reDrawPlayBtn();
     }
 }
 
@@ -386,6 +378,17 @@ function moveSnake()
     {
         bodyX[i] += (vX[i]*sqSize);
         bodyY[i] += (vY[i]*sqSize);
+        if (bodyX[i] < 0) {
+            bodyX[i] = width;
+        } else if (bodyX[i] == width) {
+            bodyX[i] = 0;
+        }
+
+        if (bodyY[i] < 0) {
+            bodyY[i] = height;
+        } else if (bodyY[i] == height) {
+            bodyY[i] = 0;
+        }
     }
     
     for(var i=snakeLength-1; i>0; i--)
