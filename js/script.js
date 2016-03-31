@@ -158,7 +158,7 @@ $(document).ready(function(){
 
     function drawCanvasBoundary()
     {
-        context.fillStyle="#19DB5A";           //set canvas color to be white
+        context.fillStyle="#99ccff";           //set canvas color to be white
         context.fillRect(0,0,width,height); //draws a rectangle of canvas size filled with white color. This serves as our background
         //context.fill();
 
@@ -398,16 +398,18 @@ $(document).ready(function(){
         {
             bodyX[i] += (vX[i]*sqSize);
             bodyY[i] += (vY[i]*sqSize);
-            if (bodyX[i] < 0) {
-                bodyX[i] = width;
-            } else if (bodyX[i] == width) {
-                bodyX[i] = 0;
-            }
+            if(endlessMode == true){
+                if (bodyX[i] < 0) {
+                    bodyX[i] = width;
+                } else if (bodyX[i] == width) {
+                    bodyX[i] = 0;
+                }
 
-            if (bodyY[i] < 0) {
-                bodyY[i] = height;
-            } else if (bodyY[i] == height) {
-                bodyY[i] = 0;
+                if (bodyY[i] < 0) {
+                    bodyY[i] = height;
+                } else if (bodyY[i] == height) {
+                    bodyY[i] = 0;
+                }
             }
         }
 
