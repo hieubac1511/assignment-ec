@@ -51,6 +51,8 @@ $(document).ready(function(){
      * Initialize the game variables and the game context
      * and then sends the game to the main game loop
      * *************************** */
+//
+    var rendering = false;
     function init()
     {
 
@@ -128,6 +130,8 @@ $(document).ready(function(){
 
     function keydown(e)
     {
+        if(rendering) return;
+
         if((e.keyCode == 37 || e.keyCode == 65) && vX[0] != 1)       //left arrow - Changed to 'a'
         {
             vX[0] = -1;
@@ -257,23 +261,31 @@ $(document).ready(function(){
 
     function checkCollision()
     {
-        if(snakeLength > 4)
+        if((endlessMode == false)&&(bodyX[0] >= width || bodyX[0] < 0 || bodyY[0] < 0 || bodyY[0] >= height))
         {
-            if(checkSelfCollision(bodyX[0],bodyY[0]))
-            {
-                scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
-                controlDiv.innerHTML = "Press \"Enter\" to restart";
-                gameOver = true;
-                clearTimeout(intervalId);
-                reDrawPlayBtn();
-            }
+            scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
+            controlDiv.innerHTML = "Press \"Enter\" to restart"; 
+            gameOver = true;
+            clearTimeout(intervalId);
+            reDrawPlayBtn();
         }
+        else if(snakeLength > 4)
+            {
+                if(checkSelfCollision(bodyX[0],bodyY[0]))
+                {
+                    scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
+                    controlDiv.innerHTML = "Press \"Enter\" to restart";
+                    gameOver = true;
+                    clearTimeout(intervalId);
+                    reDrawPlayBtn();
+                }
+            }
         if(checkSnakeHitWall(bodyX[0], bodyY[0])){
             scoreDiv.innerHTML = "Score: " +score+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Level: "+level+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Game Over</b>";
             controlDiv.innerHTML = "Press \"Enter\" to restart";
             gameOver = true;
             clearTimeout(intervalId);
-            reDrawPlayBtn();
+            reDrawPlayBtn();  
         }
     }
 
@@ -393,7 +405,8 @@ $(document).ready(function(){
      * check for collision with snake body and places new rat on canvas
      * ************************** */
     function moveSnake()
-    {
+    {   
+        rendering = true;
         for(var i=0; i < snakeLength; i++)
         {
             bodyX[i] += (vX[i]*sqSize);
@@ -419,6 +432,7 @@ $(document).ready(function(){
             vY[i] = vY[i-1];
         }
         eatRat();
+        rendering = false;
     }
 
 
@@ -520,6 +534,6 @@ $(document).ready(function(){
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=992532850788565";
+    js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1307717769244786";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
