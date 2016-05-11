@@ -1,0 +1,83 @@
+2016-05-10 16:30:05 - PHP Warning:  ftp_login(): Login or password incorrect! in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 295
+2016-05-10 16:32:08 - PHP Warning:  ftp_login(): Login or password incorrect! in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 295
+2016-05-10 16:40:30 - PHP Warning:  ftp_login(): Login or password incorrect! in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 295
+2016-05-10 16:41:01 - PHP Warning:  ftp_login(): Login or password incorrect! in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 295
+2016-05-10 16:41:50 - PHP Warning:  ftp_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 292
+2016-05-10 16:42:14 - PHP Warning:  ftp_login(): Login or password incorrect! in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 295
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-10 16:45:12 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 333
+2016-05-10 16:45:12 - PHP Warning:  ftp_mkdir(): Can't create directory. Permission denied in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 338
+2016-05-10 16:45:12 - PHP Warning:  ftp_put(): Filename invalid in D:\xampp\htdocs\opencart\upload\admin\controller\extension\installer.php on line 345
+2016-05-11 14:40:25 - PHP Notice:  Undefined variable: width in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:40:25 - PHP Notice:  Undefined variable: height in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:40:25 - PHP Notice:  Undefined variable: limit in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 12
+2016-05-11 14:40:25 - PHP Notice:  Undefined variable: scroll in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 13
+2016-05-11 14:40:25 - PHP Notice:  Undefined property: Template\Basic::$config in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\common\footer.tpl on line 1
+2016-05-11 14:40:26 - PHP Notice:  Undefined variable: width in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:40:26 - PHP Notice:  Undefined variable: height in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:40:26 - PHP Notice:  Undefined variable: limit in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 12
+2016-05-11 14:40:26 - PHP Notice:  Undefined variable: scroll in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 13
+2016-05-11 14:40:26 - PHP Notice:  Undefined property: Template\Basic::$config in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\common\footer.tpl on line 1
+2016-05-11 14:40:28 - PHP Notice:  Undefined variable: width in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:40:28 - PHP Notice:  Undefined variable: height in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:40:28 - PHP Notice:  Undefined variable: limit in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 12
+2016-05-11 14:40:28 - PHP Notice:  Undefined variable: scroll in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 13
+2016-05-11 14:40:28 - PHP Notice:  Undefined property: Template\Basic::$config in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\common\footer.tpl on line 1
+2016-05-11 14:41:06 - PHP Notice:  Undefined variable: width in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:41:06 - PHP Notice:  Undefined variable: height in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\slideshow.tpl on line 1
+2016-05-11 14:41:06 - PHP Notice:  Undefined variable: limit in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 12
+2016-05-11 14:41:06 - PHP Notice:  Undefined variable: scroll in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\module\carousel.tpl on line 13
+2016-05-11 14:41:06 - PHP Notice:  Undefined property: Template\Basic::$config in D:\xampp\htdocs\opencart\upload\catalog\view\theme\optimus\template\common\footer.tpl on line 1
+2016-05-11 14:53:53 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:54:32 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:54:33 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:54:34 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:54:34 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:54:34 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:56:12 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:56:13 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:56:14 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
+2016-05-11 14:56:36 - PHP Notice:  Undefined variable: registry in D:\xampp\htdocs\opencart\upload\catalog\view\theme\themegloballite\template\module\featured.tpl on line 2
